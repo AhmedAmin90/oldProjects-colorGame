@@ -1,0 +1,117 @@
+body , html {
+   margin: 0;
+   padding: 0;
+   background-color: #242424;
+   font-family:  "Montserrat", "Avenir";
+}
+
+.container {
+
+    width: 800px;
+    margin: auto;
+    
+   
+}
+
+.header {
+
+    background-color: #4682B4;
+    height: 170px;
+    text-align: center;
+    word-spacing: 10px;
+
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-weight: normal;
+
+
+}
+
+span {
+    font-size: 70px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #4682B4;
+    font-size: 20px;
+    transition: 0.2s;
+    outline: none;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+   
+}
+
+button:hover {
+    transition: 0.05;
+	color: white;
+    background-color: steelblue;
+    
+}
+
+.result-bar{
+    height: 30px;
+    background-color: #FFFFFF;
+    
+    
+}
+.container2{
+    width: 525px;
+    margin: auto;
+    padding-top: 3px;
+    text-align: center;
+    position: relative;
+
+}
+#new-color {
+    float: left;
+}
+#result-cont {
+    width: 75px;
+    height: inherit;
+    margin: auto;
+}
+p {
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    margin: 0;
+    visibility: hidden;
+
+}
+
+.level {
+    float: right;
+    
+}
+
+.container3{
+
+    width: 600px;
+    margin: auto;
+    height: 400px;
+    background-color: #232323;
+    padding-top: 15px;
+    align-items: center;
+}
+.square {
+    background-color: purple;
+    width: 30%;
+    height: 170px;
+    border: none;
+    border-radius: 15%;
+    float: left;
+    margin: 10px 5px 5px 10px;
+    
+    
+    
+   
+}
+
